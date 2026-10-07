@@ -1,0 +1,11 @@
+# Local reference materials and planning documents
+/data/
+/outputs/
+
+# Local preview and generated deployment output
+/_site/
+/.sites-runtime/
+__pycache__/
+*.log
+.env
+.env.*
