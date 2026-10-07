@@ -1,4 +1,4 @@
-name: Deploy event homepage to GitHub Pages
+name: Deploy work dashboard to GitHub Pages
 
 on:
   push:
@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Prepare event page
+      - name: Prepare dashboard page
         run: |
           mkdir -p _site
           cp event_homepage.html _site/index.html
